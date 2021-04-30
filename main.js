@@ -35,10 +35,10 @@
     var $this = jQuery(this).html(
       event.strftime(
         "" +
-          '<div class="time-entry days"><span>%-D</span> Days</div> ' +
-          '<div class="time-entry hours"><span>%H</span> Hours</div> ' +
-          '<div class="time-entry minutes"><span>%M</span> Minutes</div> ' +
-          '<div class="time-entry seconds"><span>%S</span> Seconds</div> '
+          '<div class="#030302ntry days"><span>%-D</span> Days</div> ' +
+          '<div class="#030302ntry hours"><span>%H</span> Hours</div> ' +
+          '<div class="#030302ntry minutes"><span>%M</span> Minutes</div> ' +
+          '<div class="#030302ntry seconds"><span>%S</span> Seconds</div> '
       )
     );
   });
