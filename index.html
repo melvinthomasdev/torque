@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="./static/css/org.css">
   <link rel="stylesheet" href="./static/css/color.css">
   <link rel="stylesheet" href="./static/css/responsive.css">
-  <script src="./static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
+  <script src="./static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 
 
@@ -92,19 +92,18 @@
       </div>
     </div>
 
-    <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-      <div id="clock" class="time-count"></div>
-    </div>
+    
 
     <div id="tg-homebanner" class="tg-homebanner tg-haslayout">
+      
       <figure class="tg-themepostimg">
         <img src="./static/images/banner/img-01.jpg" alt="image description">
         <figcaption>
           <div class="tg-bannercontent" data-tilt>
-            <span class="tg-datetime">June 27, 2017 @ 09 - 11 am</span>
+            <span class="tg-datetime"></span>
             <h1>TORQUE<span>The Push You Need</span></h1>
             <div class="tg-speakerinfo">
-              <div class="tg-authorholder">
+              <!-- <div class="tg-authorholder">
                 <img src="images/author-img.jpg" alt="image description">
                 <div class="tg-authorcontent">
                   <div class="tg-speakername">
@@ -113,10 +112,18 @@
                     <a class="tg-btnviewall" href="#">View all speakers</a>
                   </div>
                 </div>
-              </div>
-              <div class="tg-btnwhite">
+              </div> -->
+              <!-- <div class="tg-btnwhite">
                 <a class="tg-btn" href="#">Book Your Seat</a>
                 <a class="tg-btn" href="#">View Schedule</a>
+              </div> -->
+
+
+
+              <div class="row time-countdown justify-content-center wow fadeInUp" style="display: inline;" data-wow-delay="0.2s">
+                <!-- <h3>Event Starts in</h3> -->
+                <h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Will Start In</h2>
+                <div id="clock" class="time-count"></div>
               </div>
 
 
@@ -127,11 +134,11 @@
       </figure>
 
     </div>
-
+<!-- 
     <div style="position: absolute;" class="row time-countdown justify-content-center wow fadeInUp"
       data-wow-delay="0.2s">
       <div id="clock" class="time-count"></div>
-    </div>
+    </div> -->
 
 
   </header>
