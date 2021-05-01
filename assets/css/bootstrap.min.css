@@ -3690,6 +3690,7 @@ tbody.collapse.show {
 }
 .tab-content > .tab-pane {
   display: none;
+  horizontal: align 12px;
 }
 .tab-content > .active {
   display: block;
