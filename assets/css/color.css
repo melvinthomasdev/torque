@@ -41,9 +41,9 @@ a:active,
 .tg-btnvisitwebsite,
 .tg-postdate,
 .tg-tag:hover,
-.tg-formfeedbacksearch button{background:#d90845;}
+.tg-formfeedbacksearch button{background:#030302;}
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-.navbar-toggle .icon-bar{background:#d90845 !important;}
+.navbar-toggle .icon-bar{background:#030302 !important;}
 /*=============================================
 			Theme Border Color
 =============================================*/
@@ -63,7 +63,7 @@ input:focus,
 .tg-btnopenclose:hover,
 .tg-eventschedulecontent,
 .sub-menu{border-color: #46AA77;}
-.navbar-toggle{border-color: #d90845 !important;}
+.navbar-toggle{border-color: #030302 !important;}
 /*=============================================
 			Theme Color Two
 =============================================*/

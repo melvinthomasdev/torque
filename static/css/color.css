@@ -26,7 +26,7 @@ a:active,
 .tg-postdetail blockquote,
 .tg-widgetcontent ul li:hover a,
 .tg-widgetcontent ul li:hover a span,
-.tg-authorname h4:hover a{color: #d90845;}
+.tg-authorname h4:hover a{color: #030302;}
 /*=============================================
 			Theme Background Color
 =============================================*/
@@ -41,9 +41,9 @@ a:active,
 .tg-btnvisitwebsite,
 .tg-postdate,
 .tg-tag:hover,
-.tg-formfeedbacksearch button{background:#d90845;}
+.tg-formfeedbacksearch button{background:#030302;}
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-.navbar-toggle .icon-bar{background:#d90845 !important;}
+.navbar-toggle .icon-bar{background:#030302 !important;}
 /*=============================================
 			Theme Border Color
 =============================================*/
@@ -62,20 +62,20 @@ input:focus,
 .tg-btnfarword:hover,
 .tg-btnopenclose:hover,
 .tg-eventschedulecontent,
-.sub-menu{border-color: #d90845;}
-.navbar-toggle{border-color: #d90845 !important;}
+.sub-menu{border-color: #030302;}
+.navbar-toggle{border-color: #030302 !important;}
 /*=============================================
 			Theme Color Two
 =============================================*/
 /*=============================================
 			Theme Color
 =============================================*/
-{color: #f6730d;}
+{color:#46aa77;}
 /*=============================================
 			Theme Background Color
 =============================================*/
-.tg-sectionheading:before{background: #f6730d;}
+.tg-sectionheading:before{background:#46aa77;}
 /*=============================================
 			Theme Border Color
 =============================================*/
-{border-color: #f6730d;}
+{border-color:#46aa77;}
