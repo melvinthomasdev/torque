@@ -3099,7 +3099,7 @@ blockquote{
 			Home Banner V 2 Style
 ============================================= */
 .tg-homebannervtwo .tg-bannercontent{
-	padding:0;
+	padding:1;
 	float:left;
 	max-width:none;
 }
@@ -3108,7 +3108,7 @@ blockquote{
 	margin:0 0 47px;
 }
 .tg-homebannervtwo .tg-bannercontent .tg-datetime{
-	border:0;
+	border: 0;
 	padding:0;
 	min-width:0;
 	display:block;

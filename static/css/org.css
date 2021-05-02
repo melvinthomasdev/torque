@@ -107,21 +107,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tg-themepostimg {
 	margin:0;
 	width:100%;
@@ -212,10 +197,11 @@
 			align-content: center;
 }
 .tg-bannercontent{
-	max-width:800px;
+	max-width:900px;
 	width:100%;
 	margin:0 auto;
-	padding:130px 0 0;
+	padding:50px 0 0;
+	overflow: hidden;
 	text-align:center;
 	position:relative;
 	background:url(../images/texture-green.png) no-repeat;
@@ -307,24 +293,6 @@
 	color:#fff;
 	display:block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .tg-bgaddtocalendar{
