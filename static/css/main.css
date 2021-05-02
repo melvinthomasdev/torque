@@ -1169,7 +1169,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	padding:130px 0 0;
 	text-align:center;
 	position:relative;
-	background:url(../images/texture.png) no-repeat;
+	background:url() no-repeat;
 	background-position:center center;
 }
 .tg-datetime{

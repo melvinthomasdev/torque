@@ -218,7 +218,7 @@
 	padding:130px 0 0;
 	text-align:center;
 	position:relative;
-	background:url(../images/texture.png) no-repeat;
+	/* background:url(../images/texture.png) no-repeat; */
 	background-position:center center;
 }
 .tg-datetime{
