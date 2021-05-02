@@ -31,6 +31,7 @@ html,
 body {
 	position: relative;
 	height: 100%;
+
 }
 body {
 	color: #767676;
@@ -3108,7 +3109,7 @@ blockquote{
 	margin:0 0 47px;
 }
 .tg-homebannervtwo .tg-bannercontent .tg-datetime{
-	border: 0;
+	border: 1;
 	padding:0;
 	min-width:0;
 	display:block;
