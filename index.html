@@ -87,6 +87,9 @@
     z-index: 0;
     border-radius: 10px;
 }
+.glow-on-hover a:hover{
+  color: white !important;
+}
 body{
   background-size: cover;
   background-attachment: fixed;
@@ -143,7 +146,7 @@ body{
 
     <div id="tg-homebanner" class="tg-homebanner tg-haslayout">
       
-      <figure class="tg-themepostimg">
+      <figure class="tg-themepostimg" style="min-height: 832px;">
         <img src="./static/images/banner/img-01.jpg" alt="image description">
         <figcaption>
           <div class="tg-bannercontent" data-tilt>
@@ -181,72 +184,24 @@ body{
       </figure>
 
     </div>
-<!-- 
-    <div style="position: absolute;" class="row time-countdown justify-content-center wow fadeInUp"
-      data-wow-delay="0.2s">
-      <div id="clock" class="time-count"></div>
-    </div> -->
-
-
   </header>
-
-
-
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="section-title-header text-center">
-            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">So What Is Torque?</h1>
-            <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="row">
-    <div class="col-xs-12 col-md-6 col-lg-4">
-    <div class="about-item">
-    <img class="img-fluid" src="assets/img/about/img1.jpg" alt="">
-    <div class="about-text">
-    <h3><a href="#">Wanna Know Our Mission?</a></h3>
-    <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-    <a class="btn btn-common btn-rm" href="#">Read More</a>
-    </div>
-    </div>
-    </div>
-    <div class="col-xs-12 col-md-6 col-lg-4">
-    <div class="about-item">
-    <img class="img-fluid" src="assets/img/about/img2.jpg" alt="">
-    <div class="about-text">
-    <h3><a href="#">What you will learn?</a></h3>
-    <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-    <a class="btn btn-common btn-rm" href="#">Read More</a>
-    </div>
-    </div>
-    </div>
-    <div class="col-xs-12 col-md-6 col-lg-4">
-    <div class="about-item">
-    <img class="img-fluid" src="assets/img/about/img3.jpg" alt="">
-    <div class="about-text">
-    <h3><a href="#">What are the benifits?</a></h3>
-    <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-    <a class="btn btn-common btn-rm" href="#">Read More</a>
-    </div>
-    </div>
-    </div>
-    </div> -->
-    </div>
-  </section>
 
   <section style="margin: 0px 15%;">
 
     <div class="row align-items-center" style="background-color: -moz-linear-gradient(-45deg,
 		#46AA77 0%,
-		#030302 80%);;">
+		#030302 80%); padding: 15px 0">
 
-      <div class="col-lg-6" >
-        <div class="about-content mt-45 wow fadeInRight" data-wow-duration="1s"
-          style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+    <!-- <div class="col-lg-6">
+      <div class="section-title-header text-center">
+      </div>
+    </div> -->
+    
+    <div class="col-lg-6" >
+      <div class="about-content mt-45 wow fadeInRight" data-wow-duration="1s"
+      style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">So What Is Torque?</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
           <!-- <div class="section-title">
               <h2 class="title" style="line-height: 0.9">
                 <span class="d-block">About The Event</span>
@@ -1166,6 +1121,9 @@ The purpose of a squad is such that teams within the squad question each other o
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
+
+<link rel="stylesheet" href="./custom.css">
+<script src="./custom.js"></script>
 </body>
 
 
