@@ -778,7 +778,7 @@ a.back-to-top:focus {
   position: relative;
   cursor: pointer;
   height: 90px;
-  width: 255px;
+  /* width: 255px; */
   border-bottom: 1px solid #e5e5e5;
   transition: all 500ms ease;
   padding: 20px;
@@ -1438,19 +1438,28 @@ a.back-to-top:focus {
   color: #fff;
 }
 .footer-area .footer-social li .facebook:hover {
-  background: #3b5998;
+  background: #1bb35f;
+}
+.footer-area .footer-social li .instagram:hover {
+  background: #1bb35f;
 }
 .footer-area .footer-social li .twitter:hover {
-  background: #00aced;
+  background: #1bb35f;
 }
 .footer-area .footer-social li .linkedin:hover {
-  background: #fb3958;
+  background: #1bb35f;
 }
 .footer-area .footer-social li .foursqare:hover {
-  background: #25a0ca;
+  background: #1bb35f;
 }
 .footer-area .footer-social li .google-plus:hover {
-  background: #d34836;
+  background: #1bb35f;
+}
+.footer-area .footer-social li .github:hover {
+  background: #1bb35f;
+}
+.footer-area .footer-social li .google-plus:hover {
+  background: #1bb35f;
 }
 .footer-area .footer-text p {
   font-size: 14px;
