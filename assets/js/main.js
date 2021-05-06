@@ -22,15 +22,15 @@
       }
     });
   });
-  $(".navbar-nav a").on("click", function () {
-    $(".navbar-collapse").removeClass("show");
-  });
-  $(".navbar-toggler").on("click", function () {
-    $(this).toggleClass("active");
-  });
-  $(".navbar-nav a").on("click", function () {
-    $(".navbar-toggler").removeClass("active");
-  });
+  // $(".navbar-nav a").on("click", function () {
+  //   $(".navbar-collapse").removeClass("show");
+  // });
+  // $(".navbar-toggler").on("click", function () {
+  //   $(this).toggleClass("active");
+  // });
+  // $(".navbar-nav a").on("click", function () {
+  //   $(".navbar-toggler").removeClass("active");
+  // });
   jQuery("#clock").countdown("2021/05/21", function (event) {
     var $this = jQuery(this).html(
       event.strftime(
