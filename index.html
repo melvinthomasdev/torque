@@ -97,6 +97,26 @@ body{
   background-image: url('assets/img/bggg.png');
 }
 
+.glow-on-hover-hero {
+    width: 100% !important;
+    height: 30px !important;
+    background-color: #1bb35f !important;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover-hero a:hover{
+  color: white !important;
+}
+
+
+
 	</style>
 </head>
 
@@ -106,8 +126,8 @@ body{
     <div class="navigation">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index-2.html">
-          </a>
+          <!-- <a class="navbar-brand" href="index-2.html">
+          </a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon"></span>
@@ -151,7 +171,9 @@ body{
         <figcaption>
           <div class="tg-bannercontent" data-tilt>
             <span class="tg-datetime"></span>
-            <h1>TORQUE<span>The Push You Need</span></h1>
+            <h1>
+              <span> TORQUE</span>
+              <span style="margin-top: 30px;">The Push You Need</span></h1>
             <div class="tg-speakerinfo">
               <!-- <div class="tg-authorholder">
                 <img src="images/author-img.jpg" alt="image description">
@@ -173,9 +195,10 @@ body{
               <div class="row time-countdown justify-content-center wow fadeInUp" style="display: inline;" data-wow-delay="0.2s">
                 <!-- <h3>Event Starts in</h3> -->
                 <!-- <h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Will Start In</h2> -->
-                <h2 class="wow fadeInDown" data-wow-delay="0.2s">Registration Begins In</h2>
+                <h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Begins In</h2>
                 <div id="clock" class="time-count"></div>
               </div>
+              <a href="./register.html"><button  type="button" class="glow-on-hover-hero" style="color: #1bb35f; width: 50% !important;" > Register</button></a>
 
             </div>
           </div>
@@ -355,7 +378,7 @@ body{
         <div class="col-md-12 col-lg-4 col-xs-12 work-counter-widget text-center">
           <div class="counter wow fadeInRight" data-wow-delay="0.9s">
             <div class="icon"><i class="lni-users"></i></div>
-            <p>70 Available Seats</p>
+            <p>20 Available Seats</p>
             <!-- <span>Hurryup! few tickets are left</span> -->
           </div>
         </div>
@@ -450,7 +473,8 @@ body{
             </div>
             <div class="info-text">
               <h3><a href="#">Manu Francis</a></h3>
-              <p>Lead Designer, TNW</p>
+              <p>Entrepreneur
+              </p>
             </div>
           </div>
 
@@ -943,9 +967,9 @@ body{
     <br> <br>
 
      <section class="customer-logos slider" style="text-align: center;">
-        <a href="https://iedc.macehub.in/" target="_blank"><div class="slide"><img src="./assets/img/sponsors/iedc.jpg"></div></a>
-        <a href="https://www.netx.club/" target="_blank"><div class="slide"><img src="./assets/img/sponsors/netx.jpg"></div></a>
-        <div class="slide"><img src="./assets/img/sponsors/cmngsoon.jpg"></div>
+      <a href="https://www.netx.club/" target="_blank"><div class="slide"><img src="./assets/img/sponsors/netx.jpg"></div></a>
+      <a href="https://iedc.macehub.in/" target="_blank"><div class="slide"><img src="./assets/img/sponsors/iedc.jpg"></div></a>
+      <a href="http://www.hioglobal.com" target="_blank"><div class="slide"><img src="./assets/img/sponsors/hio.jpg"></div></a>
         <div class="slide"><img src="./assets/img/sponsors/cmngsoon.jpg"></div>
         <!-- <div class="slide"><img src="./assets/img/sponsors/cmngsoon.jpg"></div>
         <div class="slide"><img src="./assets/img/sponsors/cmngsoon.jpg"></div> -->
@@ -1071,7 +1095,7 @@ body{
           <div class="site-info">
             <p>
               Made with 💚 by
-              <a href="https://www.linkedin.com/in/melvin-thomas-dev/">Me</a><a href=" https://www.linkedin.com/in/neenu-chacko/">Nu</a>
+              <a href="https://www.linkedin.com/in/melvin-thomas-dev/" target="_blank">Me</a><a href=" https://www.linkedin.com/in/neenu-chacko/" target="_blank">Nu</a>
             </p>
           </div>
         </div>
