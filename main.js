@@ -31,7 +31,7 @@
   $(".navbar-nav a").on("click", function () {
     $(".navbar-toggler").removeClass("active");
   });
-  jQuery("#clock").countdown("2021/05/21", function (event) {
+  jQuery("#clock").countdown("2021/05/30", function (event) {
     var $this = jQuery(this).html(
       event.strftime(
         "" +
